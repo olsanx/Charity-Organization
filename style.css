@@ -14,8 +14,6 @@
     overflow: hidden;
 }
 
-
-
 .navbar {
     margin: auto;
     background-image: linear-gradient(to right, rgb(66, 85, 100), rgb(172, 192, 197));
@@ -111,6 +109,10 @@
     min-height: 45em;
     padding: 50px;
     margin-bottom: ;
+}
+
+.line {
+    color: black;
 }
 
 #middle {
@@ -493,7 +495,7 @@ hr.thin {
 
 }
 
-@media (max-width: 430px) {
+@media (max-width: 437px) {
     .logo {
         margin-left: 5px;
         width: 110px;
@@ -530,7 +532,7 @@ hr.thin {
         position: relative;
         min-height: 45em;
         width: 100%;
-        margin-bottom: -105%;
+        margin-bottom: -95%;
     }
 
     #about {
@@ -554,7 +556,7 @@ hr.thin {
     }
 
     #vision {
-        margin-bottom: -55%;
+        margin-bottom: -165%;
         padding: 13px;
     }
 
@@ -690,7 +692,7 @@ hr.thin {
     }
 
     #about {
-        margin-bottom: -14%;
+        margin-bottom: -4%;
     }
 
     #vision {
@@ -781,7 +783,20 @@ hr.thin {
     }
 }
 
+@media (max-width: 2687px) {
+    #vision {
+        margin-bottom: 10%;
+    }
 
+    #title {
+        overflow: visible;
+    }
+
+    .carousel-item {
+    width: 100% !important;
+    margin-top: 20px;
+}
+}
 
 
 
