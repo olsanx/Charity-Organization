@@ -12,6 +12,12 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/4201ada22e.js" crossorigin="anonymous"></script>
+	 <script>
+    window.onload = function() {
+      // Scroll to the top of the page
+      window.scrollTo(0, 0);
+    };
+  </script>
 </head>
 <body>
 
@@ -33,10 +39,12 @@
   </div>
 </div>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg fixed-top">
 	<div class="container-fluid">
 			
-				<img class=logo src="Images/LOGO.png" width="200px" height="">
+				<a href="#title">
+  				<img class="logo" src="Images/LOGO.png" width="200px" height="" alt="Logo description">
+				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			    </button>
